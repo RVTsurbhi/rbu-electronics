@@ -1,0 +1,26 @@
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: 500px;
+    min-width: 100%;
+    max-width: 100%;
+    line-height: 1;
+
+}
+
+ .navbar
+ {
+   background-color: #FFC107;
+   border-color: #FFC107;
+   border-radius: 0px;
+   margin-top: 1px;
+ }
+  .navbar-default .navbar-brand
+ {
+   color: black;
+   font-size: 28px;
+ }
+ #activa a
+ {
+   color:#FFEB3B;
+   font-size:16px;
+ }
