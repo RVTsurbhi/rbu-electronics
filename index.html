@@ -40,30 +40,30 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
 
         <div class="collapse navbar-collapse" id="active">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">HOME<span class="sr-only">(current)</span></a></li>
-                <li><a href="about.html">ABOUT US</a></li>
-                <li><a href="events.html">EVENTS</a></li>
-                <li><a href="contact.html">CONTACT US</a></li>
-                <li class="dropdown">
-                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                   <ul class="dropdown-menu">
-                      <li><a href="#">projects</a></li>
-                      <li><a href="#">blog</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">chat</a></li>
-                      <li role="separator" class="divider"></li>
-                      <li><a href="#">icon fb, linkedin</a></li>
-                   </ul>
-                </li>
-            </ul>
+              <ul class="nav navbar-nav navbar-right">
+                  <li><a href="index.html">HOME<span class="sr-only">(current)</span></a></li>
+                  <li><a href="about.html">ABOUT US</a></li>
+                  <li><a href="events.html">EVENTS</a></li>
+                  <li><a href="contact.html">CONTACT US</a></li>
+                  <li class="dropdown">
+                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                     <ul class="dropdown-menu">
+                        <li><a href="#">projects</a></li>
+                        <li><a href="#">blog</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">chat</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">icon fb, linkedin</a></li>
+                     </ul>
+                  </li>
+              </ul>
 
                <form class="navbar-form navbar-right">
                    <div class="form-group">
                        <input type="text" class="form-control" placeholder="Search">
                    </div>
                    <button type="submit" class="btn btn-success">upload</button>
-               </form>
+              </form>
 
         </div><!-- /.navbar-collapse -->
 
@@ -118,11 +118,47 @@
 
     </header>
 
+    <section id="quotes">
+         <div class="container">
+             <h1 class="quote-head">Famous quotes by the legends</h1>
 
 
+             <div class="tab-content">
+                <div id="first" class="tab-pane fade in active">
+                    <p class="para">“A person who never made a mistake never tried anything new.”</p>
+
+                </div>
+                <div id="second" class="tab-pane fade">
+                    <p class="para">“All of us do not have equal talent.But, all of us have an equal opportunity to develop our talents.”</p>
+
+                </div>
+                <div id="third" class="tab-pane fade">
+                    <p class="para">“Our greatest weakness lies in giving up. the most certain way to succeed is always to try just one more time.”</p>
+
+                </div>
+                <div id="forth" class="tab-pane fade">
+                    <p class="para">“Don’t compare yourself with anyone in this world. If you do so, you are insulting yourself.”</p>
+
+                </div>
+            </div>
+
+            <ul class="nav nav-pills">
+               <li class="Active"><a data-toggle="pill" href="#first">Elbert Einstein</a></li>
+               <li><a data-toggle="pill" href="#second">Dr. APJ Abdul Kalam</a></li>
+               <li><a data-toggle="pill" href="#third">Bill Gates</a></li>
+               <li><a data-toggle="pill" href="#forth">Edison</a></li>
+            </ul>
+
+         </div>
+    </section>
+
+
+  
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+    <!--importing javascript files-->
     <script src="assets/js/bootstrap.min.js"></script>
 
     <script src="assets/js/script.js"></script>

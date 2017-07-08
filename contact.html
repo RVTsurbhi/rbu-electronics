@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +24,7 @@
   </head>
   <body>
 
-
+    <!--navigation-->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -69,3 +70,91 @@
 
      </div><!-- /.container-fluid -->
    </nav>
+
+  <!--page content-->
+  <div class="container">
+
+    <div class="row">
+      <div class="col-lg-12">
+          <h1 class="text-center heading">CONTACT US<h1>
+      </div>
+    </div>
+
+    <!--row content-->
+    <div class="row">
+
+      <!--maps column-->
+      <div class="col-md-8">
+        <div id="googlemap">
+        </div>
+      </div>
+
+      <!--contacts details column-->
+      <div class="col-md-4">
+
+        <h3>contact details</h3>
+        <p>rayat bahra university<br> kharar, mohali<br>
+        </p>
+        <p><i class="fa fa-phone"></i>
+          <abbr title="phone">p</abbr>: (123)4567890
+        </p>
+        <p><i class="fa fa-envelope-o"></i>
+          <abbr title="email">E</abbr>: <a href="#">name@example.com</a>
+        </p>
+
+        <ul class="list-inline list-social-icons">
+            <li>
+              <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+            </li>
+
+        </ul>
+
+      </div><!--col-md-8-->
+    </div><!--row-->
+
+  </div><!--container-->
+
+
+
+
+
+      <script>
+          function initMap() {
+                var uluru = {lat: 30.781041, lng: 76.618326};
+                var map = new google.maps.Map(document.getElementById('googlemap'), {
+                  zoom: 8,
+                  center: uluru
+                });
+                var marker = new google.maps.Marker({
+                  position: uluru,
+                  map: map
+                });
+              }
+      </script>
+
+       <!--get an api key for google maps-->
+     <script async defer
+     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_YGzp1Og0PDYtPDnJJEWE7WEdUn6P8UU&callback=initMap"
+     </script>
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+     <!--importing javascript files-->
+     <script src="assets/js/bootstrap.min.js"></script>
+
+     <script src="assets/js/script.js"></script>
+
+
+  </body>
+
+  </html>

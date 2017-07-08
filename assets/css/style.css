@@ -7,7 +7,24 @@
     line-height: 1;
 
 }
-/*evebts section*/
+/*home section*/
+#quotes .nav li
+{
+  font-size: 18px;
+  padding: 30px 15px;
+}
+.para
+{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.quote-head
+{
+  margin-top: 50px;
+  text-align: center;
+}
+/*events section*/
  #events-home
  {
    position: relative;
@@ -52,3 +69,10 @@
   {
     margin: 0 auto;
   }
+/*contacts section*/
+
+#googlemap
+{
+  height:400px;
+  width: 100%;
+}
