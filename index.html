@@ -73,13 +73,13 @@
 
     <!--header carousel-->
 
-        <header id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators hidden-xs">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
+      <header id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators hidden-xs">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
@@ -118,42 +118,44 @@
 
     </header>
 
-    <section id="quotes">
-         <div class="container">
-             <h1 class="quote-head">Famous quotes by the legends</h1>
+    <!--tabs-->
+    <div class="row">
 
+        <h1 class="page-header text-center">Famous quotes by the legends</h1>
 
-             <div class="tab-content">
-                <div id="first" class="tab-pane fade in active">
-                    <p class="para">“A person who never made a mistake never tried anything new.”</p>
+        <ul id="myTab" class="nav nav-tabs nav-justified">
+           <li class="Active"><a data-toggle="tab" href="#first">Albert Einstein</a></li>
+           <li><a data-toggle="tab" href="#second">Dr. APJ Abdul Kalam</a></li>
+           <li><a data-toggle="tab" href="#third">Bill Gates</a></li>
+           <li><a data-toggle="tab" href="#forth">Edison</a></li>
+        </ul>
 
-                </div>
-                <div id="second" class="tab-pane fade">
-                    <p class="para">“All of us do not have equal talent.But, all of us have an equal opportunity to develop our talents.”</p>
+        <div id="quotes" class="tab-content">
 
-                </div>
-                <div id="third" class="tab-pane fade">
-                    <p class="para">“Our greatest weakness lies in giving up. the most certain way to succeed is always to try just one more time.”</p>
+            <div id="first" class="tab-pane fade active in">
+                <p class="para">“A person who never made a mistake never tried anything new.”</p>
 
-                </div>
-                <div id="forth" class="tab-pane fade">
-                    <p class="para">“Don’t compare yourself with anyone in this world. If you do so, you are insulting yourself.”</p>
+            </div>
+            <div id="second" class="tab-pane fade">
+                <p class="para">“All of us do not have equal talent.But, all of us have an equal opportunity to develop our talents.”</p>
 
-                </div>
+            </div>
+            <div id="third" class="tab-pane fade">
+                <p class="para">“Our greatest weakness lies in giving up. the most certain way to succeed is always to try just one more time.”</p>
+
+            </div>
+            <div id="forth" class="tab-pane fade">
+                <p class="para">“Don’t compare yourself with anyone in this world. If you do so, you are insulting yourself.”</p>
+
             </div>
 
-            <ul class="nav nav-pills">
-               <li class="Active"><a data-toggle="pill" href="#first">Elbert Einstein</a></li>
-               <li><a data-toggle="pill" href="#second">Dr. APJ Abdul Kalam</a></li>
-               <li><a data-toggle="pill" href="#third">Bill Gates</a></li>
-               <li><a data-toggle="pill" href="#forth">Edison</a></li>
-            </ul>
-
-         </div>
-    </section>
+        </div>
+    </div><!--row tabs-->
 
 
-  
+
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
