@@ -23,6 +23,54 @@
   </head>
   <body>
 
+    <!--modal content-->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+          <!--modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">update</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                          <label for="name">Name</label>
+                          <input type="text" class="form-control" id="name" placeholder="Enter Name" required="required">
+                        </div>
+
+                        <div class="form-group">
+                           <label for="email">email-id</label>
+                           <input type="text" class="form-control" id="email" placeholder="Enter email-id" required="required">
+                        </div>
+
+                        <div class="form-group">
+                           <label for="phone">phone-no.</label>
+                           <input type="number" class="form-control" id="number" placeholder="enter phone no." required="required">
+                        </div>
+
+                        <div class="form-group">
+                           <label for="branch">select branch:</label>
+                           <select class="form-control" id="branch">
+                               <option value="ece">ECE</option>
+                               <option value="cse">CSE</option>
+                               <option value="me">ME</option>
+                               <option value="ae">AE</option>
+                           </select>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" id="submitBtn">submit</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container-fluid">
@@ -54,6 +102,7 @@
                         <li><a href="#">chat</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="#">icon fb, linkedin</a></li>
+                        <li><a class="btn btn-danger" id="uploadbtn" data-toggle="modal" data-target="#myModal">upload</a></li>
                      </ul>
                   </li>
               </ul>

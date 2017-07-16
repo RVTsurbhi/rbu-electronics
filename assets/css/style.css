@@ -76,6 +76,27 @@ html,body
   {
     margin: 0 auto;
   }
+  .intro-header
+{
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+   height: 450px;
+ }
+ .intro-header .about-heading
+  {
+    text-align: center;
+    padding: 150px 0;
+    margin-top: 0;
+    font-size: 50px;
+  }
+  hr.small
+  {
+    max-width: 100px;
+    border-width: 4px;
+    border-color: white;
+    margin: 15px auto;
+  }
 
 /*contacts section*/
 
