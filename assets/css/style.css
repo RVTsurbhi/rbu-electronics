@@ -109,3 +109,16 @@ html,body
 {
   text-align: center;
 }
+
+.cardcontain {
+    height: 280px;
+    border: 2px solid black;
+    perspective: 1000px;
+    background-color: #66CC00;
+
+  }
+
+  .front {
+    transform: rotateY(0deg);
+    font-size: 30px;
+    color: #003399;
