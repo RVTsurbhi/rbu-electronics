@@ -10,3 +10,7 @@
 // $(".left").click(function(){
 //     $("#myCarousel").carousel("prev");
 // });
+$("#submitBtn").on('click',function(){
+    alert("submitted");
+    console.log("Button clicked");
+});

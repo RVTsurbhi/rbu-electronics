@@ -24,6 +24,15 @@ html,body
   margin-top: 30px;
 }
 
+/*home page marquee tag*/
+.move
+{
+  background-color: yellow;
+  height: 40px;
+  font-size: 20px;
+  color: black;
+}
+
 /*events section*/
 
   .featurette-divider
